@@ -22,7 +22,7 @@ public class TestApi {
                 .statusCode(200)
                         .
 
-                body("data", equalTo("someData"));
+                body("data", equalTo("10.06.1988"));
 
 
     }
